@@ -1,0 +1,17 @@
+{
+	"mcpServers": {
+		"browsermcp": {
+		"command": "npx",
+		"args": ["@browsermcp/mcp@latest"]
+		}
+	},
+	"filesystem": {
+			"command": "npx",
+			"args": [
+				"-y",
+				"@modelcontextprotocol/server-filesystem",
+				"/home/al/Projects/ai-agents-with-langchain-langgraph-udacity"
+			],
+			"type": "stdio"
+		},
+}
